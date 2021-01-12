@@ -1,0 +1,7 @@
+C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.csprojAssemblyReference.cache
+C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.AssemblyInfoInputs.cache
+C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.AssemblyInfo.cs
+C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.csproj.CoreCompileInputs.cache
+C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.RazorAssemblyInfo.cache
+C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.RazorAssemblyInfo.cs
