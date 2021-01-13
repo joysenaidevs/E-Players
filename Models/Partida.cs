@@ -1,3 +1,5 @@
+using System;
+
 namespace E_Players.Models
 {
     public class Partida
