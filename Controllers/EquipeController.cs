@@ -94,7 +94,7 @@ namespace E_Players.Controllers
             return LocalRedirect("~/Equipe/Listar");
         
         }
-        //http://localhost:500/Equipe/1
+        //http://localhost:5000/Equipe/1
 
         [Route("{id}")]
         public IActionResult Excluir(int id)

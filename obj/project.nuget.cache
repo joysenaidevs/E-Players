@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "m1yuX0zY2xomVdavoMSymqS29fdp7cRbbE4m1+Wea35D7WyM9iTCYMPZyxUqFa3vCq49RpEMlqz4bIYeVCY4CA==",
+  "dgSpecHash": "DOWQWswG9VJx8qJvIO6dK6WrPUqn4A3/JPoOENXrw7U0wq94NxfbVzeybBYPYSdK/HzRFCAb+hjvhXcX/ROONg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DEV\\Desktop\\E-Players\\E-Players.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\FIC\\Documents\\JOYCE 1DM\\E-Players\\E-Players.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\FIC\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.11\\microsoft.netcore.app.host.win-x64.3.1.11.nupkg.sha512"
+  ],
   "logs": []
 }
