@@ -5,9 +5,9 @@ namespace E_Players.Interfaces_2
 {
     public interface INoticia
     {
-        void Create(Equipe e);
+        void Create(Noticia e);
         List<Equipe> ReadAll();
-        void Update(Equipe e);
+        void Update(Noticia e);
         void Delete(int id);
     }
 }
