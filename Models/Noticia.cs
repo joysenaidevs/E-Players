@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using E_Players.Interfaces_2;
 
 namespace E_Players.Models
@@ -19,21 +20,23 @@ namespace E_Players.Models
         {
             CreateFolderAndFiler(PATH);
         }
+        
 
+        //primeiro criamos o Metodo construtor PREPARE
+        private string Prepare(Noticia e)
+        {
+            return $"{e.IdNoticia}; {e.Imagem}; {e.Texto}; {e.Titulo}";
+        }
         public void Create(Noticia e)
         {
             string[] linha  = { Prepare(e) };
             File.AppendAllLines(PATH, linha);
         }
 
-        private string Prepare(Noticia e)
-        {
-            return $"{e.IdNoticia}; {e.Imagem}; {e.Texto}; {e.Titulo}";
-        }
 
         public void Delete(int id)
         {
-            throw new System.NotImplementedException();
+            List <string> linhas = ReadAllLinesCSV(PATH);
         }
 
         public List<Equipe> ReadAll()

@@ -110,3 +110,5 @@ C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.dll
 C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.pdb
 C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.genruntimeconfig.cache
 C:\Users\nilma\Desktop\E-Players\obj\Debug\netcoreapp3.1\E-Players.csproj.CopyComplete
+C:\Users\FIC\Documents\JOYCE 1DM\E-Players\obj\Debug\netcoreapp3.1\Razor\Views\Jogador\index.cshtml.g.cs
+C:\Users\FIC\Documents\JOYCE 1DM\E-Players\obj\Debug\netcoreapp3.1\Razor\Views\Login\index.cshtml.g.cs

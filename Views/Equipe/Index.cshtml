@@ -13,11 +13,11 @@
     //Através da action cadastrar quando o botao for submetido, sabe-se que tem que chamar o método cadastrar recebendo as informações
 }
 
-<div class="Titulo_pagina">
+<div class="titulo_pagina">
         <h1>Cadastro de @ViewData["Title"]</h1>
 </div>
   
-<form class="Cadastro" action="@Url.Action("Cadastrar")" method="post" enctype="multipart/form-data"> 
+<form method="POST" action='@Url.Action("Cadastrar")' enctype="multipart/form-data" class="cadastro">
 
 
     <div class="campo">
