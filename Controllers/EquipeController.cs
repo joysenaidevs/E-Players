@@ -67,7 +67,7 @@ namespace E_Players.Controllers
                     Directory.CreateDirectory(folder);
                 }
 
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/", folder, file.Name );
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/img/", folder, file.FileName );
                 using( var stream = new FileStream(path, FileMode.Create) )
                 {
                     file.CopyTo(stream);
@@ -78,7 +78,7 @@ namespace E_Players.Controllers
             }
             else
             {
-                novaEquipe.Imagem = "Padrão.pnj";
+                novaEquipe.Imagem = "Padrão.png";
             }
 
             //UPLOAD FIM

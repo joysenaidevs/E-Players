@@ -18,10 +18,13 @@ namespace E_Players.Models
 
         // Criar método construtor para gerar arquivo
 
-        private const string PATH = "Database/Jogador.cvs";
-        
-         
+        public string PATH = "Database/Jogador.csv";
 
+        // <summary>
+        /// Adiciona uma Jogador ao CSV
+        /// </summary>
+        /// <param name="j">Jogador</param>
+        
         //METODO CONSTRUTOR
         public Jogador()
         {
@@ -30,6 +33,12 @@ namespace E_Players.Models
 
         //Prepara a linha para a estrutura objeto jogador
         //Retorna a linha em formato de .csv
+
+        /// <summary>
+        /// Prepara a linha para a estrutura do objeto Jogador
+        /// </summary>
+        /// <param name="j">Objeto "Jogador"</param>
+        /// <returns>Retorna a linha em formato de .csv</returns>
         private string PrepararLinha(Jogador j)
         {
             return $"{j.IdJogador}; {j.Nome}; {j.Email}; {j.Senha}";
@@ -41,11 +50,16 @@ namespace E_Players.Models
             File.AppendAllLines(PATH, linha);
         }
 
+
+        /// <summary>
+        /// Lê todos as linhas do csv
+        /// </summary>
+        /// <returns>Lista de Jogadors</returns>
         public List<Jogador> ReadAll()
         {
             //Vamos retorna a lista de jogadores
             //ler todas as linhas do csv
-            List<Jogador> jogadores = new List<Jogador>();
+            List<Jogador> jogadores= new List<Jogador>();
             string [] linhas = File.ReadAllLines(PATH);
 
             foreach (var item in linhas)
@@ -66,6 +80,11 @@ namespace E_Players.Models
             return jogadores;
         }
 
+
+        /// <summary>
+        /// Altera uma Jogador
+        /// </summary>
+        /// <param name="j">Jogador alterada</param>
         public void Uptade(Jogador j)
         {
             //Alterar
@@ -74,6 +93,12 @@ namespace E_Players.Models
             linhas.Add(PrepararLinha(j) );
             RewriteCSV(PATH, linhas);
         }
+
+
+        /// <summary>
+        /// Exclui uma Jogador
+        /// </summary>
+        /// <param name="idJogador"></param>
 
         public void Delete(int id)
         {

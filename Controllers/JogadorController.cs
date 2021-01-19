@@ -16,9 +16,12 @@ namespace E_Players.Controllers
        {
            ViewBag.Equipes   = equipeModel.ReadAll();
            ViewBag.Jogadores = jogadorModel.ReadAll();
+           
            return View();
        }
 
+
+       [Route("Cadastrar")]
        public IActionResult Cadastrar(IFormCollection form)
        {
            Jogador novoJogador = new Jogador();

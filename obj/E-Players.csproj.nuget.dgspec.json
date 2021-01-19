@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FIC\\Documents\\JOYCE 1DM\\E-Players\\E-Players.csproj": {}
+    "C:\\Users\\FIC\\Desktop\\E-Players\\E-Players.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FIC\\Documents\\JOYCE 1DM\\E-Players\\E-Players.csproj": {
+    "C:\\Users\\FIC\\Desktop\\E-Players\\E-Players.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FIC\\Documents\\JOYCE 1DM\\E-Players\\E-Players.csproj",
+        "projectUniqueName": "C:\\Users\\FIC\\Desktop\\E-Players\\E-Players.csproj",
         "projectName": "E-Players",
-        "projectPath": "C:\\Users\\FIC\\Documents\\JOYCE 1DM\\E-Players\\E-Players.csproj",
+        "projectPath": "C:\\Users\\FIC\\Desktop\\E-Players\\E-Players.csproj",
         "packagesPath": "C:\\Users\\FIC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FIC\\Documents\\JOYCE 1DM\\E-Players\\obj\\",
+        "outputPath": "C:\\Users\\FIC\\Desktop\\E-Players\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
